@@ -38,7 +38,7 @@ const isAdminRoute = (req, res, next) => {
   } else {
     return res.status(401).json({
       status: false,
-      message: "Not authorized as admin. Try login as admin.",
+      message: "Not authorized, contact the Admin for neccesary support.",
     });
   }
 };
